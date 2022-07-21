@@ -1,0 +1,32 @@
+.wrapper{
+    background-color: white;
+    padding: 20px;
+}
+
+.container{
+    width: 82%;
+    margin: 0px auto;
+}
+.content{
+    display: flex;
+}
+
+.info{
+    width: 55%;
+}
+
+.faq{
+    flex:1;
+}
+
+.detail{
+    margin: 20px 5px;
+
+    p,li{
+        font-size: 1.4rem;
+    }
+}
+h3{
+        font-size: 1.8rem;
+    }
+

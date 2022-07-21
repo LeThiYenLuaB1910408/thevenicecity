@@ -1,0 +1,79 @@
+.phone {
+    color: #fff !important;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0D61F2;
+    background: -webkit-linear-gradient(180deg, #0D61F2, #2F7BFE);
+    background: linear-gradient(180deg, #0D61F2, #2F7BFE);
+    border-radius: 5px;
+
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        font-size: 1.6rem;
+    }
+
+    to {
+        font-size: 2rem;
+    }
+}
+
+.bubble {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin: 14px 0;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px #888;
+    z-index: 1000;
+    background: #0084FF center no-repeat;
+
+    a {
+        line-height: 45px;
+        color: transparent !important;
+        display: block;
+    }
+}
+
+.sms {
+    background-image: url(https://thitruongcanho.vn/wp-content/uploads/2021/05/mail.png.webp);
+    bottom: 250px;
+    background-color: #f60;
+    background-size: 60%;
+
+}
+
+.zalo {
+    background-image: url(https://thitruongcanho.vn/wp-content/uploads/2021/05/zalo.png.webp);
+    bottom: 190px;
+    background-size: 70%;
+
+}
+
+.mess {
+    bottom: 130px;
+    background-image: url(https://thitruongcanho.vn/wp-content/uploads/2021/05/messenger.png.webp);
+    background-color: #e60f1e;
+    background-size: 70%;
+}
+
+.top{
+    background: transparent;
+    color:#dd9933;
+    cursor: pointer;
+}
+
