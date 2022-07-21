@@ -53,10 +53,12 @@ function TienIch() {
             <li>…….</li>
           </ul>
         </div>
-        {listImg.map((img,index)=>(<div className={cx("info-images")} key={index}>
-          <img src={img.src} alt="" />
-        </div>))}
-        
+        <div className={cx("image")}>
+          {listImg.map((img, index) => (<div className={cx("info-images")} key={index}>
+            <img src={img.src} alt="" />
+          </div>))}
+        </div>
+
       </div>
     </div>
   );

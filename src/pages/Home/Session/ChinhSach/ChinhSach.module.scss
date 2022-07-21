@@ -92,4 +92,43 @@
             transform: scale(1.1);
         }
     }
+
+}
+
+@media only screen and (max-width: 426px) {
+    .info{
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+
+    .box-group {
+flex-direction: column;
+    }
+    .file{
+        width: 100%;
+    }
+
+    .file-image{
+
+        img{
+            width: 50px;
+            height: 50px;
+            margin-right: 5px;
+            border-radius: 5px;
+            }
+
+            .file-name{
+                font-size: 1.4rem;
+                margin-left: 5px;
+            }
+    }
+    .box {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .button{
+        margin-bottom: 25px;
+    }
 }

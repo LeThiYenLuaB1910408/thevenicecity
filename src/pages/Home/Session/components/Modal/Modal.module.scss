@@ -3,6 +3,8 @@
 }
 
 .wrapper{
+    display: none;
+
     width: 20%;
     background-color: var(--color-main);
     position: fixed;
@@ -10,10 +12,11 @@
     right: 60px;
     border: 5px double #fff;
     border-radius: 150px 150px 0 0;
+    z-index: 1000;
 }
 
 .active{
-    display: block;
+    display: none;
 }
 
 .modal-header{
@@ -25,7 +28,7 @@
     background-color: transparent;
     font-size: 2.8rem;
     margin: 10px 20px;
-    color: white;
+    color: rgb(125, 119, 119);
     cursor: pointer;
 }
 

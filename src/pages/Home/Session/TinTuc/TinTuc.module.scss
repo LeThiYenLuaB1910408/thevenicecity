@@ -33,3 +33,15 @@
 .image:hover img{
     transform: scale(1.05);
 }
+
+
+@media only screen and (max-width: 426px){
+    .content{
+        overflow-x: scroll;
+    }
+    
+    .box{
+        min-width: 90%;
+        margin-right: 15px;
+    }
+}

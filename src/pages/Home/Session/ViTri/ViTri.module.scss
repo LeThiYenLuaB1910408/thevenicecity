@@ -10,5 +10,11 @@
 
 
 .content {
-    text-align: left;
+    text-align: justify;
+}
+@media only screen and (max-width: 426px) {
+    .content {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }

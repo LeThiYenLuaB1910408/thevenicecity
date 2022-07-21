@@ -4,11 +4,9 @@
 }
 
 .container{
-    width: 77%;
+    width: 90%;
     margin: 0px auto;
 }
-
-
 
 .img-main{
     position: relative;
@@ -19,9 +17,10 @@
 }
 .img-sub{
     display: flex;
+    overflow-x: auto;
 }
 .images{
-    width: 80px;
+    min-width: 80px;
     height: 80px;
     overflow: hidden;
 
@@ -51,5 +50,11 @@
         background-color: transparent;
         color: rgb(255, 255, 255);
         cursor: pointer;
+    }
+}
+
+@media only screen and(max-width:426px){
+    .img-sub{
+        margin-bottom: 25px;
     }
 }

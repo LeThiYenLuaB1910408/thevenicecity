@@ -35,19 +35,6 @@ function TienDoDuAn() {
     <div className={cx("wrapper")}>
       <div className={cx("container")}>
         <Title>Tiến độ dự án The Venice City</Title>
-        {/* <div className={cx("content")}>
-          Tiến độ dự án The Venice City Dự án An Phú Ecocity đang trong quá
-          trình triển khai làm hệ thống cống thoát nước, điện ngầm, san lấp mặt
-          bằng, rải base làm đường asphalt.
-          <br />
-          Chủ đầu tư đang xây nhà hàng, cafe trước tiên để khách hàng đến thăm
-          quan dự án có thể ghé thăm, ngồi nghe nhân viên bán hàng tư vấn.{" "}
-          <br />
-          Đây là đợt đầu mở bán của An Phú 2 (tức Ecocity), giá bán đợt đầu rất
-          tốt cả nhà + xây dựng chỉ từ 2 TỶ/căn 1 trệt 2 lầu. <br />
-          Tính ra chỉ hơn 10 triệu/m2 đất quận Cái Răng, vị trí đi lại thuận
-          tiện, môi trường sống trong lành.
-        </div> */}
         <div className={cx("slider")}>
           <div className={cx("img-main")}>
             <img src={listImg[currentPos].src} alt="" />

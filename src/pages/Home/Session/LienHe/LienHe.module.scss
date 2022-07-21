@@ -30,3 +30,24 @@ h3{
         font-size: 1.8rem;
     }
 
+@media only screen and (max-width: 426px){
+    .content{
+        display: block;
+    }
+
+    h3{
+        font-size: 1.6rem;
+    }
+
+    .info{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .detail{
+    
+        p,li{
+            font-size: 1.3rem;
+        }
+    }
+}
